@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-github_csv_url = ''
+github_csv_url = 'https://raw.githubusercontent.com/erijmo/3690/main/CAR%20DETAILS%20FROM%20CAR%20DEKHO.csv'
 
 df = pd.read_csv(github_csv_url)
 
